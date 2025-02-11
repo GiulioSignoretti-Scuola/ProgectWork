@@ -10,7 +10,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class WelcomeComponent implements OnInit {
   images: string[] = [
-    'assets/AcquaFrizzante.png',
+    'assets/img1.webp',
     'assets/img2.webp',
     'assets/img3.webp',
   ];
@@ -30,7 +30,7 @@ export class WelcomeComponent implements OnInit {
     this.currentImageIndex = (this.currentImageIndex + 1) % this.images.length;
   }
 
-  redirectToHome(): void {
-    window.location.href = '/home'; // Reindirizza alla pagina home
+  redirectToVassoio(): void {
+    window.location.href = '/vassoio'; // Reindirizza alla pagina vassoio
   }
 }
