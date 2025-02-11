@@ -1,0 +1,14 @@
+.barraLat{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.img{
+    width:20%;
+    height: 20%;
+}
+
+.sezione{
+    align-items: center;
+}
