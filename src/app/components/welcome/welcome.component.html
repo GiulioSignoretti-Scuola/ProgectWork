@@ -1,0 +1,14 @@
+<div class="welcome-container">
+    <div class="carousel">
+      <img
+        *ngFor="let image of images; let i = index"
+        [src]="image"
+        [class.active]="i === currentImageIndex"
+        class="carousel-image"
+      />
+    </div>
+    <div class="welcome-message" (click)="redirectToHome()">
+      <h1>Benvenuto al nostro Fast Food!</h1>
+      <p>Clicca qui per iniziare</p>
+    </div>
+  </div>
